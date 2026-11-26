@@ -6,7 +6,9 @@ MCMC fits and Gaussian-process regression of the fσ8(z) compilation, used to re
 
 | File | Content |
 |---|---|
-| `Growth2.txt` | fσ8 data: z, fσ8, error |
+| `Growth2.txt` | fσ8 compilation: z, fσ8, error, fiducial Ωm of each survey |
 | `fsig8GPM.ipynb` | MCMC fit and GP reconstruction |
+
+Requires `numpy`, `scipy`, `matplotlib`, `getdist`.
 
 If you use this, please cite Benisty 2021, Phys. Dark Univ. 31, 100766.
